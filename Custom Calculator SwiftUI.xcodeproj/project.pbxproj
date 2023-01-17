@@ -11,6 +11,16 @@
 		74318310297735A100D621AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431830F297735A100D621AE /* ContentView.swift */; };
 		74318312297735A100D621AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74318311297735A100D621AE /* Assets.xcassets */; };
 		74318315297735A100D621AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74318314297735A100D621AE /* Preview Assets.xcassets */; };
+		743183212977368200D621AE /* CalcItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743183202977368200D621AE /* CalcItem.swift */; };
+		74318323297736A100D621AE /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74318322297736A100D621AE /* Array+Extension.swift */; };
+		74318325297736C400D621AE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74318324297736C400D621AE /* String+Extension.swift */; };
+		743183272977371100D621AE /* CalculatorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743183262977371100D621AE /* CalculatorButtonView.swift */; };
+		743183292977372700D621AE /* CalculatorKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743183282977372700D621AE /* CalculatorKeyboardView.swift */; };
+		7431832B2977375500D621AE /* break.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7431832A2977375500D621AE /* break.ttf */; };
+		743183312977382100D621AE /* screen_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7431832D2977382100D621AE /* screen_3.png */; };
+		743183322977382100D621AE /* screen_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7431832E2977382100D621AE /* screen_4.png */; };
+		743183332977382100D621AE /* screen_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7431832F2977382100D621AE /* screen_1.png */; };
+		743183342977382100D621AE /* screen_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 743183302977382100D621AE /* screen_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,18 @@
 		7431830F297735A100D621AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74318311297735A100D621AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74318314297735A100D621AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7431831B297735D500D621AE /* Custom-Calculator-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Custom-Calculator-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		743183202977368200D621AE /* CalcItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcItem.swift; sourceTree = "<group>"; };
+		74318322297736A100D621AE /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		74318324297736C400D621AE /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		743183262977371100D621AE /* CalculatorButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonView.swift; sourceTree = "<group>"; };
+		743183282977372700D621AE /* CalculatorKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorKeyboardView.swift; sourceTree = "<group>"; };
+		7431832A2977375500D621AE /* break.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = break.ttf; sourceTree = "<group>"; };
+		7431832C297737B400D621AE /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		7431832D2977382100D621AE /* screen_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_3.png; sourceTree = "<group>"; };
+		7431832E2977382100D621AE /* screen_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_4.png; sourceTree = "<group>"; };
+		7431832F2977382100D621AE /* screen_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_1.png; sourceTree = "<group>"; };
+		743183302977382100D621AE /* screen_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,11 @@
 		74318301297735A100D621AE = {
 			isa = PBXGroup;
 			children = (
+				7431832C297737B400D621AE /* Readme.md */,
+				7431832F2977382100D621AE /* screen_1.png */,
+				743183302977382100D621AE /* screen_2.png */,
+				7431832D2977382100D621AE /* screen_3.png */,
+				7431832E2977382100D621AE /* screen_4.png */,
 				7431830C297735A100D621AE /* Custom Calculator SwiftUI */,
 				7431830B297735A100D621AE /* Products */,
 			);
@@ -51,8 +78,12 @@
 		7431830C297735A100D621AE /* Custom Calculator SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				7431831B297735D500D621AE /* Custom-Calculator-SwiftUI-Info.plist */,
 				7431830D297735A100D621AE /* Custom_Calculator_SwiftUIApp.swift */,
-				7431830F297735A100D621AE /* ContentView.swift */,
+				7431831D2977362400D621AE /* Font */,
+				7431831E2977363200D621AE /* Extension */,
+				7431831F2977363D00D621AE /* Model */,
+				7431831C2977361900D621AE /* View */,
 				74318311297735A100D621AE /* Assets.xcassets */,
 				74318313297735A100D621AE /* Preview Content */,
 			);
@@ -65,6 +96,41 @@
 				74318314297735A100D621AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7431831C2977361900D621AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7431830F297735A100D621AE /* ContentView.swift */,
+				743183262977371100D621AE /* CalculatorButtonView.swift */,
+				743183282977372700D621AE /* CalculatorKeyboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7431831D2977362400D621AE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				7431832A2977375500D621AE /* break.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		7431831E2977363200D621AE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				74318322297736A100D621AE /* Array+Extension.swift */,
+				74318324297736C400D621AE /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7431831F2977363D00D621AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				743183202977368200D621AE /* CalcItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +191,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743183322977382100D621AE /* screen_4.png in Resources */,
+				743183332977382100D621AE /* screen_1.png in Resources */,
 				74318315297735A100D621AE /* Preview Assets.xcassets in Resources */,
+				743183312977382100D621AE /* screen_3.png in Resources */,
 				74318312297735A100D621AE /* Assets.xcassets in Resources */,
+				7431832B2977375500D621AE /* break.ttf in Resources */,
+				743183342977382100D621AE /* screen_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +208,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743183212977368200D621AE /* CalcItem.swift in Sources */,
 				74318310297735A100D621AE /* ContentView.swift in Sources */,
 				7431830E297735A100D621AE /* Custom_Calculator_SwiftUIApp.swift in Sources */,
+				743183292977372700D621AE /* CalculatorKeyboardView.swift in Sources */,
+				74318325297736C400D621AE /* String+Extension.swift in Sources */,
+				743183272977371100D621AE /* CalculatorButtonView.swift in Sources */,
+				74318323297736A100D621AE /* Array+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +346,7 @@
 				DEVELOPMENT_TEAM = 3LF677RTA3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Custom-Calculator-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +375,7 @@
 				DEVELOPMENT_TEAM = 3LF677RTA3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Custom-Calculator-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
